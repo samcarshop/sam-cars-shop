@@ -1,0 +1,2 @@
+ALTER TABLE vehicles ADD COLUMN IF NOT EXISTS documents JSONB DEFAULT '[]'::jsonb;
+ALTER TABLE vehicles ADD COLUMN IF NOT EXISTS video_url TEXT DEFAULT '';
